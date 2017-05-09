@@ -1,0 +1,19 @@
+p,em /* consernant les paragraphes et les italiques */
+{
+	color: blue; /* on pass en bleu */
+}
+
+h1 /*consernant les entetes h1*/
+{
+	color: red; /* on passe en rouge */
+}
+
+.noir /* on parle d'une classe */
+{
+	color: black;
+}
+
+#trois /* on parle d'un id */
+{
+	color: purple;
+}

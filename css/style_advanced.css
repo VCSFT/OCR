@@ -1,0 +1,111 @@
+body
+{
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}	
+
+#page_accueil
+{
+
+	width: 100%;
+	margin: auto;
+	position: absolute;
+
+}
+
+#bordure
+{
+	border: 1px solid black;
+	width: 10%;
+	height: 1000px;
+	display: inline-block;
+	background: black;
+	border-radius: 10px;
+}
+
+header
+{
+	/* background-color: red; */
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+	width: 89%;
+}
+
+.photo
+{
+	display: inline-block;
+	position: absolute;
+	vertical-align: top;
+	right: 0%;
+	top: 10%;
+}
+
+#presentation
+{
+	display: inline-block;
+	text-align: center;
+	width: 100%;
+}
+
+#formation
+{
+	position: absolute;
+	width: 25%;
+	display: inline-block;
+	/* border: 1px solid black; */
+	left: 11%;
+	vertical-align: top;
+	top: 20%;
+}
+
+#experience
+{
+	display: inline-block;
+	/* border: 1px solid black; */
+	width: 25%;
+	position: absolute;
+	left: 45%;
+	vertical-align: top;
+	top: 20%;
+	
+}
+
+#competence
+{
+	display: inline-block;
+	/* border: 1px solid black; */
+	width: 25%;
+	position: absolute;
+	right: 1%;
+	vertical-align: top;
+	top: 20%;
+	
+}
+
+
+h3
+{
+	text-align: center;
+	color: purple;
+}
+
+@media all and (max-width: 1024px)
+{
+	#page_accueil
+	{
+		width: 100%;
+	}
+	#bordure
+	{
+		display: none;
+	}
+	
+	#competence, #experience, #formation
+	{
+		display: block;
+		position: relative;
+		left : 30%;
+		min-width: 300px;
+		
+	}
+}
